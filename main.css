@@ -19,6 +19,7 @@ p {
 }
 
 .answer {
+    padding-left: 100px;
     background-blend-mode: overlay;
     background-image: url("images/extraredstripes.jpg");
     outline-style: ridge;
