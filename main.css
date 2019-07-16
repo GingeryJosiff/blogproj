@@ -6,6 +6,13 @@
     font-size: 30px;
 }
 
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 *{
     box-sizing: border-box;
     padding: 20px;
@@ -21,13 +28,13 @@ p {
 .answer {
     padding-left: 100px;
     background-blend-mode: saturation;
-    background-image: url("images/redstripe.gif");
+    background-image: url("images/extraredstripes.jpg");
     outline-style: ridge;
 }
 
 .question {
     background-blend-mode: overlay;
-    background-image: url("images/extraredstripes.jpg");
+    background-image: url("images/redstripe.gif");
     outline-style: ridge;
 }
 
