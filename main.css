@@ -18,6 +18,19 @@ p {
     outline-style: groove;
 }
 
+.answer {
+    background-blend-mode: overlay;
+    background-image: url("images/extraredstripes.jpg");
+    outline-style: ridge;
+}
+
+.question {
+    background-blend-mode: overlay;
+    background-image: url("images/redstripe.gif");
+    outline-style: ridge;
+}
+
+
  body {
     background-color: #cdc7d1;
     background-image: url("images/background4.jpg");
