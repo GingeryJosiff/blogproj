@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Russo+One&display=swap');
+
+* h1 {
+    color: #345385;
+    background-color: #c9d0d6;
+    font-size: 30px;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 20px;
+}
+img{
+    float: right;
+}
+p {
+    background-color: #f9f7fa;
+    outline-style: groove;
+}
+
+ body {
+    background-color: #cdc7d1;
+    background-image: url("images/background4.jpg");
+    font-family: 'Russo One', sans-serif;
+    color: #482f59;
+}
