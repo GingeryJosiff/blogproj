@@ -11,6 +11,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-image: url("images/background1.jpg");
+    background-blend-mode: color-dodge;
 }
 
 *{
