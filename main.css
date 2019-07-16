@@ -20,14 +20,14 @@ p {
 
 .answer {
     padding-left: 100px;
-    background-blend-mode: overlay;
-    background-image: url("images/extraredstripes.jpg");
+    background-blend-mode: saturation;
+    background-image: url("images/redstripe.gif");
     outline-style: ridge;
 }
 
 .question {
     background-blend-mode: overlay;
-    background-image: url("images/redstripe.gif");
+    background-image: url("images/extraredstripes.jpg");
     outline-style: ridge;
 }
 
