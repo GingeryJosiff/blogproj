@@ -4,8 +4,13 @@
     color: #345385;
     background-color: #c9d0d6;
     font-size: 30px;
+    outline-style: double;
+    outline-color: #482f59;
 }
 
+ul {
+    list-style: none;
+}
 
 .navbar{
     display: flex;
@@ -13,6 +18,8 @@
     align-items: center;
     background-image: url("images/background1.jpg");
     background-blend-mode: color-dodge;
+    outline-style: auto;
+    outline-color: #482f59;
 }
 
 *{
