@@ -31,14 +31,16 @@ img{
 }
 p {
     background-color: #f9f7fa;
-    outline-style: groove;
+    outline-style: dotted;
+    outline-color: #482f59;
 }
 
 .answer {
     padding-left: 100px;
     background-blend-mode: saturation;
     background-image: url("images/extraredstripes.jpg");
-    outline-style: ridge;
+    outline-style: outset;
+    outline-color: #482f59;
 }
 
 .question {
@@ -51,6 +53,7 @@ p {
  body {
     background-color: #cdc7d1;
     background-image: url("images/background4.jpg");
+    background-blend-mode: hard-light;
     font-family: 'Russo One', sans-serif;
     color: #482f59;
 }
