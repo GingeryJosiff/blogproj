@@ -8,6 +8,30 @@
     outline-color: #482f59;
 }
 
+
+.dropdown {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  display: inline-block;
+  background-image: url("images/background1.jpg");
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-image: url("images/background1.jpg");
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: contents;
+}
+
+
 ul {
     list-style: none;
 }
